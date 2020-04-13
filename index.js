@@ -7,3 +7,7 @@ function exerciseDog(dog, breed){
     });
     return completedRoutine;
 }
+
+function wakeDog(dog, breed){
+    return `Wake ${dog} the ${breed}`;
+}
